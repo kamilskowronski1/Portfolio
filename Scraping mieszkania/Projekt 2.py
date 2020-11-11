@@ -108,5 +108,5 @@ for i in range(0,ilosc_stron()):
                 print ('1')
 
 
-df1.to_csv('Portfolio/mieszkania pandas.csv', encoding = 'utf-8')
+df1.to_csv('Portfolio/Scraping mieszkania/mieszkania pandas.csv', encoding = 'utf-8')
 print(df1)
