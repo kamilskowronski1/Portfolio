@@ -10,7 +10,7 @@ df1 = pd.read_csv("Portfolio/Regresja -mieszkania/mieszkania.csv",delimiter=';')
 #data cleaning
 #_____________________________________________
 
-def remove_czm_outliners(df):
+def remove_czm_outliners(df): #usunięcie rekordów różniących się o więcej niz odchylenie standardowe od średniej 
     df_out=pd.DataFrame()
     for key, subdf in df.groupby('miejsce'):
         m = np.mean(subdf.cena_za_metr)
