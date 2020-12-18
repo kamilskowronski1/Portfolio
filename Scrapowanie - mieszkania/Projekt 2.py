@@ -105,8 +105,8 @@ for i in range(0,ilosc_stron()):
             a +=1
             if a%500 ==0:
                 time.sleep(15)
-               
+            print(a)
 
 
-df1.to_csv('Portfolio/Scraping mieszkania/mieszkania pandas.csv', encoding = 'utf-8')
+df1.to_csv('Repo\mieszkania_s.csv', encoding = 'utf-8')
 print(df1)
